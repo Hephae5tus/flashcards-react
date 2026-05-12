@@ -1,0 +1,142 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    width: 90%;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 3vh;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vh;
+    gap: 2vh;
+    width: 50%;
+    height: auto;
+    min-height: 100vh;
+    background-color: cadetblue;
+    border-radius: 3vh;
+}
+
+#formArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    width: 80%;
+    background-color: darkkhaki;
+    border-radius: 3vh;
+    height: 9vh;
+}
+
+.inputs {
+    height: 7vh;
+    border-radius: 4vh;
+    text-align: center;
+}
+
+.buttons {
+    height: 7vh;
+    width: 15vh;
+    border-radius: 4vh;
+}
+
+#listActionBtns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkkhaki;
+    border-radius: 3vh;
+    width: 80%;
+    height: 9vh;
+    gap: 1vh;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 3px;
+    background-color: white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+}
+
+.thCheck {
+    cursor: pointer;
+}
+
+.thDelete {
+    cursor: pointer;
+}
+
+.thEdit {
+    cursor: pointer;
+}
+
+.editingInp {
+    field-sizing: content;
+}
+
+#cardArea {
+    display: flex;
+    align-items: center;
+    gap: 1vh;
+}
+
+#card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vh;
+    height: 50vh;
+    background-color: aliceblue;
+    cursor: pointer;
+    border-radius: 3vh;
+}
+
+#cardFront {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vh;
+    height: 50vh;
+    background-color: aliceblue;
+    border-radius: 3vh;
+}
+
+#cardBack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vh;
+    height: 50vh;
+    background-color: rgb(178, 219, 255);
+    border-radius: 3vh;
+}
+
+#prevBtn {
+    height: 10vh;
+    width: 5vh;
+    border-radius: 3vh;
+}
+
+#nextBtn {
+    height: 10vh;
+    width: 5vh;
+    border-radius: 3vh;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
